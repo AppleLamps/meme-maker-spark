@@ -51,7 +51,6 @@ export function ExportBar({
             const ok = await downloadPNG();
             if (ok) {
               saveHistory();
-            if (ok) {
               show("✓ PNG downloaded");
             } else {
               show("Download failed");

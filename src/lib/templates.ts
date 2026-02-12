@@ -13,8 +13,8 @@ export const TEMPLATES: MemeTemplate[] = [
   { id: "roll-safe", name: "Roll Safe", src: "/templates/roll-safe.svg" },
   { id: "this-is-fine", name: "This Is Fine", src: "/templates/this-is-fine.svg" },
   { id: "grumpy-cat", name: "Grumpy Cat", src: "/templates/grumpy-cat.svg" },
-  { id: "woman-just-nature", name: "Woman In The Crowd", src: "/templates/woman-in-crowd.svg" },
+  { id: "woman-in-crowd", name: "Woman In The Crowd", src: "/templates/woman-in-crowd.svg" },
   { id: "y-u-no", name: "Y U No", src: "/templates/y-u-no.svg" },
   { id: "ancient-aliens", name: "Ancient Aliens", src: "/templates/ancient-aliens.svg" },
-  { id: "this-is-a-trap", name: "Surprised Pikachu", src: "/templates/surprised-pikachu.svg" },
+  { id: "surprised-pikachu", name: "Surprised Pikachu", src: "/templates/surprised-pikachu.svg" },
 ];

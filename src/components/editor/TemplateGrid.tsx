@@ -1,6 +1,5 @@
 "use client";
 
-import { useMemo } from "react";
 import { TEMPLATES } from "@/lib/templates";
 import { TemplateCard } from "./TemplateCard";
 import { useMemeStore } from "@/hooks/useMemeStore";
@@ -13,7 +12,7 @@ export function TemplateGrid({
   const selectedTemplateId = useMemeStore((state) => state.selectedTemplateId);
   const customImage = useMemeStore((state) => state.customImage);
   const setTemplate = useMemeStore((state) => state.setTemplate);
-  const cards = useMemo(() => TEMPLATES, []);
+  const cards = TEMPLATES;
 
   return (
     <div className="overflow-x-auto pb-2">
